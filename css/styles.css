@@ -1,0 +1,90 @@
+h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+}
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    /*line-height: 24px;*/
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    color: #000000;
+}
+h3{
+    /* Смотреть график */
+    width: 115px;
+    height: 24px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #2872CA;
+    margin-top: 35px;
+    cursor: pointer;
+
+}
+h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* identical to box height, or 150% */
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    color: #000000;
+}
+.usdt{
+    color: #909090;
+}
+#main{
+    margin: 12.5% auto;
+    background: #ffffff;
+    width: 75%;
+    height: 65%;
+}
+
+#crypto-wrapper{
+    background: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex:1 0 100%
+}
+.crypto-info{
+    flex-direction: row;
+    width: 275px;
+    height: 176px;
+    padding: 10px 0 0 25px;
+    border: 1px solid #F0F3FD;
+    box-shadow: 4px 4px 10px rgba(0, 52, 114, 0.06);
+    border-radius: 4px;
+    margin: 20px auto;
+}
+.crypto-info:hover{
+    background: #F8FAFF;
+}
+#chart{
+    display: none;
+    /*position: absolute;*/
+    width: 1000px;
+    /*height: 65%;*/
+    /*display: block;*/
+}
+#container{
+    width:950px;
+    height:500px;
+    display: block;
+}
+
